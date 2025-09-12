@@ -1,0 +1,109 @@
+/* Property: value */
+/* color: blue */
+
+/* Element selector, h1 is element selector here, all h1 will be blue. */ 
+h1 {
+    color: blue;
+}
+
+h2{  /* Element selector */
+    color: rgb(211, 211, 92);
+}
+
+.red-text{    /* class selector */
+    color:rgb(255, 0, 225);
+}
+
+/* Class selector helps to group many elements to have same css. */
+
+#main{  /* ID selector */
+    color: rgb(18, 207, 179);
+}
+
+/* ID selector only applies css to that particular element. */
+
+/* ID vs Class selectors  */
+/* ID selector only can be apllied to only 1 element per file, completely unique and only 1 element */
+/* Class selector can be applied to many elements with the same CSS to group them together. */
+
+/* Attribute Selector */
+p[draggable]{      /* p=html element, draggable=attribute, all p element with attribute "draggable" and apply that css style to it. */
+    color: red;
+}
+
+p[draggable="false"]{
+    color: green;
+}
+
+/* Universal Selector, this selects all elements */ 
+* {
+    color: red;
+}
+
+
+
+/*  
+---------------------------------------------------------------------------------------------------------
+SYNTAXES:
+
+Element Selector
+element {
+  property: value;
+}
+
+Class Selector
+.classname {
+  property: value;
+}
+
+ID Selector
+#idname {
+  property: value;
+}
+
+Attribute Selector
+element[attribute="value"] {
+  property: value;
+}
+
+Universal Selector
+* {
+  property: value;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EXAMPLES:
+
+Element Selector
+h1 {
+  color: blue;
+}
+
+Class Selector
+.red-text {
+  color: rgb(255, 0, 225);
+}
+
+ID Selector
+#main {
+  color: rgb(18, 207, 179);
+}
+
+Attribute Selector
+p[draggable] {
+  color: red;
+}
+
+p[draggable="false"] {
+  color: green;
+}
+
+Universal Selector
+* {
+  color: red;
+}
+  
+---------------------------------------------------------------------------------------------------------
+*/
+
+
