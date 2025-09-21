@@ -27,7 +27,7 @@ footer {
   width: 300px;
   float: left;
   margin-right: 50px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .card {
